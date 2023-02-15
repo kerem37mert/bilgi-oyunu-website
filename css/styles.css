@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+
+}
+
+/* Logo Start */
+.logo-container {
+    text-align: center;
+    background-color: #13005A;+
+}
+.logo{
+    width: 300px;
+}
+/* Logo End */
+
+
+/* Menu Start */
+.navbar{
+    background-color: #03C988;
+    text-align: center;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.navbar ul li a:hover{
+    background-color: #00337C;
+}
+/* Menu End */
+
+
+/* Download Section Start */
+.download{
+    background-color: #00337C;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.phone-container{
+    flex: 1;
+    text-align: center;
+}
+.phone-img{
+    height: 500px;
+}
+
+.download-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.download-button-png{
+ width: 200px;
+}
+
+@media (max-width: 768px) {
+    .download{
+        display: block;
+    }
+
+    .phone-container{
+        margin-bottom: 50px;
+    }
+}
+/* Download Section End */
+
+
+
+
+
+/* Footer Start */
+.footer{
+    background-color: #13005A;
+    padding: 50px
+}
+/* Footer End */
