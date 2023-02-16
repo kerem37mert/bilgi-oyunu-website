@@ -84,6 +84,40 @@ body{
 /* Footer Start */
 .footer{
     background-color: #13005A;
-    padding: 50px
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-logo{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.footer-router{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-navigation{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 20px
+}
+
+@media (max-width: 768px){
+    .footer{
+        display: block;
+    }
+    .footer-logo{
+        margin-bottom: 50px;
+    }
+
 }
 /* Footer End */
