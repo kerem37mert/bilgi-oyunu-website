@@ -110,6 +110,139 @@ body{
 
 
 
+/* Create Question Section Start */
+.question-title{
+    background-color: #00337C;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding-top: 50px;
+}
+.question-title h1{
+    color: #fff;
+    font-size: 2.4rem;
+}
+.question-title p{
+    color: #fff;
+}
+
+.createQuestion{
+    background-color: #00337C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    flex: 1
+}
+.phone-box{
+    border-color: #fff;
+    border-style: solid;
+    border-top-width: 16px;
+    border-bottom-width: 24px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #13005A;
+}
+
+.subject{
+    padding: 20px 0 40px;
+    text-align: center;
+}
+.subject input{
+    background-color: #13005A;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+}
+.question{
+    background-color: #1C82AD;
+    padding: 100px 0;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 10px;
+}
+.question input{
+    background-color: #1C82AD;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+}
+.answer-big{
+    margin-top: 40px;
+}
+.answer{
+    display: flex;
+    flex-direction: row;
+}
+.answer-box{
+    background-color: #00337C;
+    padding: 50px 0;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.answer-correct-box{
+    background-color: #03C988;
+    padding: 50px 0;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.answer-correct-box input{
+    background-color: #03C988;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    width: 80%;
+}
+.answer-box input{
+    background-color: #00337C;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    width: 80%;
+}
+input:focus{
+    outline: none;
+}
+.form-footer{
+    margin-top: 50px;
+}
+.form-footer input{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #00337C;
+    color: #fff;
+    margin: 0 auto 24px;
+}
+.form-footer input[type='text'], .form-footer input[type='mail']{
+    width: 60%;
+}
+.form-footer input[type='submit']{
+    background-color: #03C988;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.6;
+}
+
+/* Create Question Section End */
+
+
 /* Footer Start */
 .footer{
     background-color: #13005A;
