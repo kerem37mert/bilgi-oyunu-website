@@ -37,6 +37,35 @@ body{
 .navbar ul li a:hover{
     background-color: #00337C;
 }
+.open-menu{
+    display: none;
+    text-align: right;
+    margin-right: 50px;
+}
+.open-menu svg{
+    width: 50px;
+}
+.close-menu{
+    display: none;
+    text-align: right;
+    margin-right: 50px;
+}
+.close-menu svg{
+    width: 50px;
+}
+
+
+@media (max-width: 768px){
+    .navbar ul{
+        display: none;
+    }
+    .navbar ul li{
+        display: block;
+    }
+    .open-menu{
+        display: block;
+    }
+}
 /* Menu End */
 
 
