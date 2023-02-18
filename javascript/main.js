@@ -62,9 +62,24 @@ question.addEventListener("submit",(event) => {
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 document.getElementById("txtHint").innerHTML = this.responseText;
+                document.getElementById("txtHint").style.color = "#03C988";
+                document.getElementById("txtHint").style.fontSize = "1rem";
+                document.querySelector(".form-footer").style.textAlign = "center";
+
+                Elements.forEach(element => {
+                   element.value = "";
+                });
+
             }
         };
         xmlhttp.open("POST", "php/insert.php?subjectInput=" + subjectInput.value + "&questionInput=" + questionInput.value + "&correctInput=" + correctInput.value+ "&answerInput1=" + answerInput1.value+ "&answerInput2=" + answerInput2.value+ "&answerInput3=" + answerInput3.value + "&nameInput=" + nameInput.value + "&mailInput=" + mailInput.value, true);
         xmlhttp.send();
+    }
+    else
+    {
+        document.getElementById("txtHint").innerHTML = "Lütfen boş alan bırakmayınız.";
+        document.getElementById("txtHint").style.color = "red";
+        document.getElementById("txtHint").style.fontSize = "1rem";
+        document.querySelector(".form-footer").style.textAlign = "center";
     }
 });

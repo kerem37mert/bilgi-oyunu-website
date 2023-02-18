@@ -10,26 +10,26 @@ require_once("header.php");
             <form id="question">
                 <div class="phone-box">
                     <div class="subject">
-                        <input id="subjectInput" type="text" placeholder="Konu">
+                        <input id="subjectInput" type="text" placeholder="Konu" autocomplete="off">
                     </div>
                     <div class="question">
-                        <input id="questionInput" type="text" placeholder="Soru">
+                        <input id="questionInput" type="text" placeholder="Soru" autocomplete="off">
                     </div>
                     <div class="answer-big">
                         <div class="answer">
                             <div class="answer-correct-box">
-                                <input id="correctInput" type="text" placeholder="Doğru Cevap">
+                                <input id="correctInput" type="text" placeholder="Doğru Cevap" autocomplete="off">
                             </div>
                             <div class="answer-box">
-                                <input id="answerInput1" type="text" placeholder="Yanlış Cevap">
+                                <input id="answerInput1" type="text" placeholder="Yanlış Cevap" autocomplete="off">
                             </div>
                         </div>
                         <div class="answer">
                             <div class="answer-box">
-                                <input id="answerInput2" type="text" placeholder="Yanlış Cevap">
+                                <input id="answerInput2" type="text" placeholder="Yanlış Cevap" autocomplete="off">
                             </div>
                             <div class="answer-box">
-                                <input id="answerInput3" type="text" placeholder="Yanlış Cevap">
+                                <input id="answerInput3" type="text" placeholder="Yanlış Cevap" autocomplete="off">
                             </div>
                         </div>
                     </div>
