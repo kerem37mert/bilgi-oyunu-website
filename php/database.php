@@ -2,16 +2,19 @@
 namespace site;
 class database
 {
-    private string $dbname = "site.db";
+    private string $dbname = "bilgioyunu";
+    private string $host = "localhost";
+    private string $userName = "root";
+    private string $password = "";
     public $pdo = null;
     public $stmt = null;
 
     public function __construct()
     {
-        try {
-
-            $this->pdo = new \PDO("sqlite:$this->dbname");
-            echo "true";
+        try
+        {
+            $this->pdo = new \PDO("mysql:host=$this->host; dbname=$this->dbname",$this->userName,$this->password);
+            //echo "true";
 
         }catch (\PDOException $e)
         {

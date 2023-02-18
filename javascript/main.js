@@ -55,5 +55,16 @@ question.addEventListener("submit",(event) => {
        }
 
     });
-});
 
+    if(subjectInput.value != "" && questionInput.value != "" && correctInput.value != "" && answerInput1.value != "" && answerInput2.value != "" && answerInput3.value != "" && nameInput.value != "" && mailInput.value != "")
+    {
+        const xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("txtHint").innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open("POST", "php/insert.php?subjectInput=" + subjectInput.value + "&questionInput=" + questionInput.value + "&correctInput=" + correctInput.value+ "&answerInput1=" + answerInput1.value+ "&answerInput2=" + answerInput2.value+ "&answerInput3=" + answerInput3.value + "&nameInput=" + nameInput.value + "&mailInput=" + mailInput.value, true);
+        xmlhttp.send();
+    }
+});

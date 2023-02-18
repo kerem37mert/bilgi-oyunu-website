@@ -1,11 +1,13 @@
-<?php require_once("header.php"); ?>
+<?php
+require_once("header.php");
+?>
     <main>
         <section class="question-title">
             <h1>Soru Oluştur!</h1>
             <p>* Bilgi Oyunu için soru oluşturmaya başla ve topluluğa katıl!</p>
         </section>
         <section class="createQuestion">
-            <form id="question" action="">
+            <form id="question">
                 <div class="phone-box">
                     <div class="subject">
                         <input id="subjectInput" type="text" placeholder="Konu">
@@ -35,7 +37,8 @@
                 <div class="form-footer">
                     <input id="nameInput" type="text" placeholder="Ad Soyad">
                     <input id="mailInput" type="text" placeholder="E-Posta">
-                    <input type="submit">
+                    <input name="insert" type="submit">
+                    <span class="alert" id="txtHint"></span>
                 </div>
             </form>
         </section>
