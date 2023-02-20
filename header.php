@@ -22,7 +22,7 @@
     <nav class="navbar">
         <ul>
             <li><a href="/">Ana Sayfa</a></li>
-            <li><a href="#">Haberler</a></li>
+            <li><a href="/news.php">Haberler</a></li>
             <li><a href="/createQuestion.php">Soru Oluştur</a></li>
             <li><a href="/">Yardım</a></li>
         </ul>
