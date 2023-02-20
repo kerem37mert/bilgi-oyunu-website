@@ -283,3 +283,49 @@ input:focus{
 
 }
 /* Footer End */
+
+
+
+/* News Section Start */
+.news-section{
+    background-color: #1C82AD;
+    padding: 5%;
+}
+.news-article{
+    background-color: #00337C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.news-article img{
+    width: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.news-article h2{
+    margin: 0 50px;
+}
+
+.news-article a{
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+/* News Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
