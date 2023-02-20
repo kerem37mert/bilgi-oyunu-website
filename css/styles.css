@@ -297,7 +297,7 @@ input:focus{
     flex-direction: row;
     align-items: center;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 2%;
 }
 
 .news-article img{
@@ -313,6 +313,13 @@ input:focus{
     font-size: 1.2rem;
     color: #fff;
     text-decoration: none;
+}
+
+@media(max-width: 768px){
+    .news-article{
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
 }
 /* News Section End */
 
