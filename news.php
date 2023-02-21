@@ -13,7 +13,7 @@ $data = $news->data;
             <article class="news-article">
                 <img src="<?php echo $item["image"]; ?>" alt="">
                 <h2>
-                    <a href="#<?php echo $item["url"]; ?>"><?php echo $item["title"]; ?></a>
+                    <a href="/content.php?url=<?php echo $item["url"]; ?>"><?php echo $item["title"]; ?></a>
                 </h2>
             </article>
             <?php endforeach; ?>

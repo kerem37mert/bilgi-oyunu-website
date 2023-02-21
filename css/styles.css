@@ -326,7 +326,48 @@ input:focus{
 
 
 
+/* Content Section Start */
+.content-section{
+    background-color: #1C82AD;
+    padding: 5%;
+}
+.content-article {
+    background-color: #00337C;
+    border-radius: 20px;
+    padding: 2%;
+}
+.content-header{
+    position: relative;
+}
+.content-article h2{
+    font-size: 1.5rem;
+    color: #fff;
+    display: inline-block;
+}
 
+.content-article span{
+    font-size: 0.8rem;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+
+.content-article p{
+    text-align: justify;
+    color: #fff;
+    font-size: 1rem;
+}
+@media(max-width: 768px){
+    .content-article {
+        padding: 5%;
+    }
+}
+/* Conten Section End */
 
 
 
