@@ -66,9 +66,10 @@ question.addEventListener("submit",(event) => {
                 document.getElementById("txtHint").style.fontSize = "1rem";
                 document.querySelector(".form-footer").style.textAlign = "center";
 
-                Elements.forEach(element => {
-                   element.value = "";
-                });
+                for(let i=0; i<Elements.length-2; i++)
+                {
+                    Elements[i].value = "";
+                }
 
             }
         };
