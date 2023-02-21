@@ -18,6 +18,11 @@ class News extends database
 
     public function selectAll()
     {
-        $this->data = $this->getRows("select * from news where publish");
+        $this->data = $this->getRows("select * from news where publish=?",[1]);
+    }
+
+    public function select($getUrl)
+    {
+        $this->data = $this->getRow("select * from news where url=?",[$getUrl]);
     }
 }
