@@ -355,12 +355,16 @@ input:focus{
     font-style: italic;
     opacity: 0.8;
 }
-
-
 .content-article p{
     text-align: justify;
     color: #fff;
     font-size: 1rem;
+}
+.content-article ul li{
+    color: #fff;
+}
+.content-article a{
+    color: #03C988;
 }
 @media(max-width: 768px){
     .content-article {
