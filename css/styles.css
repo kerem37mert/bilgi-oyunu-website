@@ -371,6 +371,26 @@ input:focus{
 
 
 
+/* Help Section Start */
+.help-section{
+    background-color: #00337C;
+    padding: 50px;
+    text-align: center;
+}
+.help-section p{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+.help-section a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #03C988;
+    border-radius: 20px;
+}
+/* Help Section End */
 
 
 
