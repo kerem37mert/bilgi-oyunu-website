@@ -4,7 +4,7 @@
     </div>
     <div class="footer-router">
         <a class="footer-navigation" href="#">Gizlilik Politikası</a>
-        <a class="footer-navigation" href="#">Kullanım Koşulları</a>
+        <a class="footer-navigation" href="#">Çerez Politikası</a>
         <a class="footer-navigation" href="#">Yardım</a>
     </div>
 </footer>
